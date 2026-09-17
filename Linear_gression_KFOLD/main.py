@@ -10,8 +10,7 @@ from sklearn.metrics import mean_squared_error
 # =========================
 # ĐỌC DỮ LIỆU
 # =========================
-
-data = pd.read_csv("data.csv")
+data = pd.read_csv("Linear_gression_KFOLD/data.csv")
 
 print("========== DỮ LIỆU ==========")
 print(data)
