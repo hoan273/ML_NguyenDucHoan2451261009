@@ -87,7 +87,7 @@ kf = KFold(
     random_state=42
 )
 
-degrees = range(1, 9)
+degrees = range(1, 6)
 
 results = []
 
