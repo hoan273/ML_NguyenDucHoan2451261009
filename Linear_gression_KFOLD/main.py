@@ -5,8 +5,6 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
-
-
 # =========================
 # ĐỌC DỮ LIỆU
 # =========================
@@ -17,7 +15,6 @@ print(data)
 
 print("\nKích thước dữ liệu:")
 print(data.shape)
-
 
 X = data[
     [
@@ -229,7 +226,7 @@ predicted_price = final_model.predict(
 )
 
 
-print("\n========== KẾT QUẢ DỰ ĐOÁN ==========")
+print("\n======== KẾT QUẢ DỰ ĐOÁN ========")
 
 print(
     "Best degree:",
